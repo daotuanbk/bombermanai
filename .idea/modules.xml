@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bomberman-ai-master.iml" filepath="$PROJECT_DIR$/bomberman-ai-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bombermanai.iml" filepath="$PROJECT_DIR$/bombermanai.iml" />
     </modules>
   </component>
 </project>

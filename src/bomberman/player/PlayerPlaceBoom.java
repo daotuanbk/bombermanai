@@ -13,7 +13,7 @@ public class PlayerPlaceBoom  {
     BoomExplode boomExplode;
 
     public PlayerPlaceBoom() {
-        boomExplode = new BoomExplode();
+        System.out.println("hello");
     }
 
     public void run(Player owner) {
