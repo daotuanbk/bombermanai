@@ -7,13 +7,15 @@ import bomberman.Boom.BoomExplode;
 
 public class PlayerPlaceBoom  {
     boolean spellDisabled;
+    public static boolean checkExplode;
     int coolDownCount;
     final int coolDownTime = 50;
 
     BoomExplode boomExplode;
+    Boom boom;
 
     public PlayerPlaceBoom() {
-
+        boomExplode = new BoomExplode();
     }
 
     public void run(Player owner) {
@@ -31,12 +33,15 @@ public class PlayerPlaceBoom  {
 
         InputManager inputManager = InputManager.instance;
         if (inputManager.spacePressed) {
-            Boom boom = GameObject.recycle(Boom.class);
+            boom = GameObject.recycle(Boom.class);
             boom.position.set(owner.position.x, owner.position.y);
-
+            checkExplode = true;
             spellDisabled = true;
-            boomExplode.run();
         }
+
+
+            boomExplode.run(this.boom);
+            checkExplode = false;
 
     }
 
