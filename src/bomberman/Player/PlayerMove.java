@@ -1,4 +1,4 @@
-package bomberman.player;
+package bomberman.Player;
 
 import bases.InputManager;
 

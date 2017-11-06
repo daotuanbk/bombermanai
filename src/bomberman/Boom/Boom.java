@@ -1,8 +1,10 @@
-package bomberman.player;
+package bomberman.Boom;
 
 import bases.GameObject;
 import bases.physics.BoxCollider;
 import bases.physics.ImageRenderer;
+import bomberman.Player.Player;
+import bomberman.Player.PlayerPlaceBoom;
 
 public class Boom extends GameObject {
     Player player;

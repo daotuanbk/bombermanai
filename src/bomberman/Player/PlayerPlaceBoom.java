@@ -1,9 +1,9 @@
-package bomberman.player;
+package bomberman.Player;
 
 import bases.GameObject;
 import bases.InputManager;
-import bomberman.player.Boom;
-import bomberman.player.Player;
+import bomberman.Boom.Boom;
+import bomberman.Boom.BoomExplode;
 
 public class PlayerPlaceBoom  {
     boolean spellDisabled;
@@ -13,7 +13,7 @@ public class PlayerPlaceBoom  {
     BoomExplode boomExplode;
 
     public PlayerPlaceBoom() {
-        System.out.println("hello");
+
     }
 
     public void run(Player owner) {

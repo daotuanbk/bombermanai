@@ -1,5 +1,5 @@
 import bases.GameObject;
-import bomberman.player.Player;
+import bomberman.Player.Player;
 import maps.Map;
 
 import javax.swing.*;
