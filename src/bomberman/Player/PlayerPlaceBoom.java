@@ -9,7 +9,7 @@ public class PlayerPlaceBoom  {
     boolean spellDisabled;
     public static boolean checkExplode;
     int coolDownCount;
-    final int coolDownTime = 50;
+    final int coolDownTime = 100;
 
     BoomExplode boomExplode;
     Boom boom;
